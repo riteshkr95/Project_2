@@ -21,4 +21,4 @@ def sumbit():
         return "you are safe"
     else:
         return "you are not safe"
-app.run(debug=True)
+app.run(debug=True ,port=8989 , host="0.0.0.0")
